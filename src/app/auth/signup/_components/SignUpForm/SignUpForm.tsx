@@ -5,7 +5,10 @@ import { useAppForm } from '@/hooks/forms/useAppForm';
 import { Form } from '@base-ui/react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { signUpErrorCodesToFields, signUpErrorCodesToMessages } from '@/app/signup/_types/errors';
+import {
+  signUpErrorCodesToFields,
+  signUpErrorCodesToMessages,
+} from '@/app/auth/signup/_types/errors';
 import { toast } from 'sonner';
 import { z } from 'zod';
 ('');

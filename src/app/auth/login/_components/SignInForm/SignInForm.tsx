@@ -6,7 +6,7 @@ import { Form } from '@base-ui/react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { z } from 'zod';
-import { signInErrorCodes } from '@/app/login/_types/errors';
+import { signInErrorCodes } from '@/app/auth/login/_types/errors';
 import { toast } from 'sonner';
 import { CircleAlert } from 'lucide-react';
 
