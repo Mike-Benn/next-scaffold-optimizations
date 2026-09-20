@@ -8,6 +8,13 @@
       "when": 1788152400982,
       "tag": "0000_dark_nehzno",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789366630885,
+      "tag": "0001_strange_firebrand",
+      "breakpoints": true
     }
   ]
 }
